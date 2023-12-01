@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -71,7 +71,8 @@
       </section>
       <section class="content__details">
         <h1 class="title">
-          <span class="content__accent">По-</span><br />смотри<br />в окно
+          <span class="content__accent">По<span class="dash-fix">-</span></span
+          ><br />смотри<br />в окно
         </h1>
         <ul class="content__list">
           <!-- ЗДЕСЬ ОКАЖУТСЯ ТЕМПЛЕЙТЫ КАРТОЧЕК -->
@@ -106,7 +107,9 @@
       </li>
     </template>
     <template class="more-button-template">
-      <li><button class="button more-button">Показать еще</button></li>
+      <li class="content__list-item">
+        <button class="button more-button">Показать еще</button>
+      </li>
     </template>
 
     <template class="error-template">
