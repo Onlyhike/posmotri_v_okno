@@ -199,7 +199,7 @@ ol {
 }
 
 .title {
-  font-family: Oswald, sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 75px;
   line-height: 94%;
   text-transform: uppercase;
@@ -271,7 +271,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: Oswald, sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 30px;
   line-height: 100%;
   text-transform: uppercase;
